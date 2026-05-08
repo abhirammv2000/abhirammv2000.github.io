@@ -462,30 +462,7 @@ layout: null
         .exp-company {
             font-size: 1rem;
             color: var(--text-secondary);
-            margin-bottom: 16px;
             font-weight: 500;
-        }
-
-        .exp-bullets {
-            list-style: none;
-            padding: 0;
-        }
-
-        .exp-bullets li {
-            position: relative;
-            padding-left: 20px;
-            margin-bottom: 10px;
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-
-        .exp-bullets li::before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-            font-size: 0.9rem;
         }
 
         /* ============ PROJECTS ============ */
@@ -963,15 +940,18 @@ layout: null
         <div class="exp-timeline">
             <div class="exp-card" data-animate>
                 <div class="exp-header">
+                    <div class="exp-role">Data Science Consultant</div>
+                    <span class="exp-date">Jan 2026 – May 2026</span>
+                </div>
+                <div class="exp-company">Parlay Finance</div>
+            </div>
+
+            <div class="exp-card" data-animate>
+                <div class="exp-header">
                     <div class="exp-role">Research Intern</div>
                     <span class="exp-date">May 2025 – Sep 2025</span>
                 </div>
                 <div class="exp-company">ConverSight</div>
-                <ul class="exp-bullets">
-                    <li>Built product line cash flow forecasting model in <strong>Python</strong> using <strong>Prophet</strong>. Delivered insights into supply-chain levers driving trend breaks. Improved MAPE by <strong>724 bps</strong> over previous projections.</li>
-                    <li>Developed an AI voice agent with FastAPI, Websockets, OpenAI streaming, and Google TTS/STT, handling <strong>50+ concurrent</strong> vendor interactions in real-time and saving hundreds of procurement hours annually.</li>
-                    <li>Designed an <strong>AI workflow</strong> using <strong>LangChain</strong> and <strong>OpenAI</strong> tool calling to convert unstructured procurement voice transcripts into schema-validated JSON stored in <strong>PostgreSQL</strong>, eliminating <strong>8 hours/week</strong> of data entry.</li>
-                </ul>
             </div>
 
             <div class="exp-card" data-animate>
@@ -980,13 +960,6 @@ layout: null
                     <span class="exp-date">Aug 2022 – Jul 2024</span>
                 </div>
                 <div class="exp-company">ConverSight</div>
-                <ul class="exp-bullets">
-                    <li>Built automated <strong>demand forecasting</strong> pipeline in <strong>Python (Prophet, ARIMA, Holt-Winters)</strong> and <strong>SQL</strong> for Asian food products (1M+ records). Improved annual cash flow by <strong>$2M</strong>.</li>
-                    <li>Developed a <strong>LightGBM</strong> classifier to predict user reorders (<strong>3M+</strong> transactions) using behavioral features with <strong>0.40 F1</strong> score, optimizing cart recommendations and increasing basket size.</li>
-                    <li>Optimized forecasting model for fringe items' demand (<strong>84%</strong> of selection) using <strong>MLP</strong> and <strong>Quantile Regression</strong>, improving P90 Quantile Loss by <strong>1737 bps</strong>.</li>
-                    <li>Architected a <strong>RAG</strong> system using <strong>Qdrant</strong> Vector DB and <strong>OpenAI API</strong> with recursive chunking, hybrid search, and cohere reranking, increasing accuracy by <strong>20%</strong>.</li>
-                    <li>Productionized <strong>ML</strong> solutions in <strong>AWS SageMaker</strong>, meeting SLA of <strong>99.99%</strong> availability.</li>
-                </ul>
             </div>
 
             <div class="exp-card" data-animate>
@@ -995,10 +968,6 @@ layout: null
                     <span class="exp-date">Jan 2022 – Jul 2022</span>
                 </div>
                 <div class="exp-company">Cognizant Technology Solutions</div>
-                <ul class="exp-bullets">
-                    <li>Developed an <strong>ETL</strong> pipeline on <strong>Cloudera Hadoop</strong> and a <strong>PySpark XGBRegressor</strong> pipeline to predict lead time, improving EDD accuracy by <strong>30%</strong> and NPS by <strong>50 bps</strong>.</li>
-                    <li>Constructed <strong>Tableau</strong> dashboards using <strong>LOD expressions</strong> to visualize model drift and delivery KPIs, cutting bottleneck detection time by <strong>20%</strong>.</li>
-                </ul>
             </div>
         </div>
     </div>

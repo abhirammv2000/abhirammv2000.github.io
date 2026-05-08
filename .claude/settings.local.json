@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"^d.*\\\\.git$\")",
+      "Bash(ls \"C:\\\\Users\\\\abhir\\\\.claude\\\\projects\\\\c--Users-abhir-Projects-abhiram-portfolio-github-io\\\\memory\\\\\" 2>/dev/null || echo \"no memory dir yet\")",
+      "Read(//c/Users/abhir/.claude/projects/c--Users-abhir-Projects-abhiram-portfolio-github-io/memory\" 2>/dev/**)"
+    ]
+  }
+}
